@@ -113,19 +113,5 @@ export const ANIME_DATA: Anime[] = [
     status: 'Completed',
     language: 'Sub',
     year: 2022
-  },
-  {
-    id: '9',
-    title: 'Under the Pale Moon',
-    description: 'A psychological thriller about a city where no one can sleep, and the nightmares that begin to manifest in reality.',
-    image: 'https://images.unsplash.com/photo-1516339901600-af13a73858a4?auto=format&fit=crop&q=80&w=400&h=600',
-    banner: 'https://images.unsplash.com/photo-1516339901600-af13a73858a4?auto=format&fit=crop&q=80&w=1200&h=600',
-    rating: 9.0,
-    episodes: 12,
-    genres: ['Horror', 'Sci-Fi', 'Slice of Life111111'],
-    type: 'Series',
-    status: 'Completed',
-    language: 'Sub',
-    year: 2022
   }
 ];
