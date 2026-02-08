@@ -8,7 +8,7 @@ interface CategoryBarProps {
 }
 
 const GENRES: Genre[] = [
-  'Action', 'Romance', 'Comedy', 'Fantasy', 'Horror', 'Sci-Fi', 'Slice of Life', 'Slice of Life', 'Adventure'
+  'Action', 'Romance', 'Comedy', 'Fantasy', 'Horror', 'Sci-Fi', 'Slice of Life', 'Slice of Life1111', 'Adventure'
 ];
 
 const CategoryBar: React.FC<CategoryBarProps> = ({ selectedGenre, onSelectGenre }) => {
