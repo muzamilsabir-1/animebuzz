@@ -22,4 +22,5 @@ export type Genre =
   | 'Horror' 
   | 'Sci-Fi' 
   | 'Slice of Life' 
+  | 'Slice of Life1111' 
   | 'Adventure';
