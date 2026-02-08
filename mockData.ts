@@ -1,0 +1,117 @@
+
+import { Anime } from './types';
+
+export const ANIME_DATA: Anime[] = [
+  {
+    id: '1',
+    title: 'Neon Odyssey: Resurgence',
+    description: 'In a futuristic Tokyo, a young pilot must synchronize with a bio-mechanical giant to save humanity from inter-dimensional beings.',
+    image: 'https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 8.9,
+    episodes: 24,
+    genres: ['Action', 'Sci-Fi'],
+    type: 'Series',
+    status: 'Ongoing',
+    language: 'Both',
+    year: 2024
+  },
+  {
+    id: '2',
+    title: 'Silent Whispers of Autumn',
+    description: 'A touching story about two high school students who find solace in an old library through handwritten notes left in books.',
+    image: 'https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1528495612343-9ca9f4a4de28?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 9.2,
+    episodes: 1,
+    genres: ['Romance', 'Slice of Life'],
+    type: 'Movie',
+    status: 'Completed',
+    language: 'Sub',
+    year: 2023
+  },
+  {
+    id: '3',
+    title: 'Blade of the Eternal Eclipse',
+    description: 'A disgraced samurai embarks on a journey to regain his honor while hunting down supernatural demons that killed his master.',
+    image: 'https://images.unsplash.com/photo-1578632738980-23055589ee99?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1578632738980-23055589ee99?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 8.5,
+    episodes: 12,
+    genres: ['Action', 'Fantasy'],
+    type: 'Series',
+    status: 'Completed',
+    language: 'Dub',
+    year: 2024
+  },
+  {
+    id: '4',
+    title: 'Laugh Out Loud High',
+    description: 'The chaotic daily life of a student who is secretly the world\'s most famous comedian, trying to hide their identity at school.',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 7.8,
+    episodes: 24,
+    genres: ['Comedy', 'Slice of Life'],
+    type: 'Series',
+    status: 'Ongoing',
+    language: 'Sub',
+    year: 2022
+  },
+  {
+    id: '5',
+    title: 'Cursed Shadows',
+    description: 'A detective specialized in paranormal activities investigates a series of mysterious disappearances in a haunted village.',
+    image: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 8.1,
+    episodes: 13,
+    genres: ['Horror', 'Adventure'],
+    type: 'Series',
+    status: 'Completed',
+    language: 'Both',
+    year: 2021
+  },
+  {
+    id: '6',
+    title: 'Stellar Drifters',
+    description: 'Join a ragtag crew of space explorers as they traverse the galaxy in search of a mythical planet made of pure energy.',
+    image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 8.7,
+    episodes: 26,
+    genres: ['Adventure', 'Sci-Fi'],
+    type: 'Series',
+    status: 'Ongoing',
+    language: 'Both',
+    year: 2024
+  },
+  {
+    id: '7',
+    title: 'Magic Academix',
+    description: 'A girl with no magical talent gets accepted into the world\'s most prestigious magic academy. Chaos ensues.',
+    image: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 7.5,
+    episodes: 12,
+    genres: ['Fantasy', 'Comedy'],
+    type: 'Series',
+    status: 'Completed',
+    language: 'Sub',
+    year: 2023
+  },
+  {
+    id: '8',
+    title: 'Under the Pale Moon',
+    description: 'A psychological thriller about a city where no one can sleep, and the nightmares that begin to manifest in reality.',
+    image: 'https://images.unsplash.com/photo-1516339901600-af13a73858a4?auto=format&fit=crop&q=80&w=400&h=600',
+    banner: 'https://images.unsplash.com/photo-1516339901600-af13a73858a4?auto=format&fit=crop&q=80&w=1200&h=600',
+    rating: 9.0,
+    episodes: 12,
+    genres: ['Horror', 'Sci-Fi'],
+    type: 'Series',
+    status: 'Completed',
+    language: 'Sub',
+    year: 2022
+  }
+];
